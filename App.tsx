@@ -4,7 +4,7 @@ import React from 'react'
 const App = () => {
   return (
     <View style={styles.mainCon}>
-      <Text>App</Text>
+      <Text>Trading app</Text>
     </View>
   )
 }
