@@ -6,12 +6,7 @@ import AllStack from './src/assets/images/allstocks.svg'
 const App = () => {
   return (
     <View>
-      <Text style={{
-        fontFamily:'Manrope-Regular',
-        color:'black',
-        fontSize:22
-      }}>Trading app</Text>
-      <AllStack width={120} height={130} />
+     <Text>App</Text>
     </View>
   )
 }
