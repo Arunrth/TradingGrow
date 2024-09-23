@@ -3,16 +3,16 @@ import React from 'react'
 
 const App = () => {
   return (
-    <View style={styles.mainCon}>
-      <Text>Trading app</Text>
+    <View>
+      <Text style={{
+        fontFamily:'Manrope-Regular',
+        color:'black',
+        fontSize:22
+      }}>Trading app</Text>
     </View>
   )
 }
 
 export default App
 
-const styles = StyleSheet.create({
-  mainCon:{
-    flex:1
-  }
-})
+const styles = StyleSheet.create({})
